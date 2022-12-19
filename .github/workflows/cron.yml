@@ -7,4 +7,4 @@ jobs:
   humans:
     runs-on: ubuntu-latest
     steps:
-      - use: actions/javascript-action
+      - uses: actions/javascript-action
