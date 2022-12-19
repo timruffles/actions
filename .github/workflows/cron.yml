@@ -7,6 +7,6 @@ jobs:
   humans:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/javascript-action@main
+      - uses: actions/humans.txt@main
         with:
           format: shell
