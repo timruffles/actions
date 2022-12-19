@@ -1,0 +1,10 @@
+on:
+  push:
+  schedule:
+    - cron: '* * * * */15'
+
+jobs:
+  humans:
+    runs-on: ubuntu-latest
+    steps:
+      - use: actions/javascript-action
