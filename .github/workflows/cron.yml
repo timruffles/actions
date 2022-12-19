@@ -8,3 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/javascript-action@main
+        with:
+          format: shell
